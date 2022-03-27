@@ -11,6 +11,7 @@
   inputs.src-libnetfilter_queue-master.ref   = "refs/heads/master";
   inputs.src-libnetfilter_queue-master.owner = "ba0f3";
   inputs.src-libnetfilter_queue-master.repo  = "libnetfilter_queue.nim";
+  inputs.src-libnetfilter_queue-master.dir   = "";
   inputs.src-libnetfilter_queue-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
